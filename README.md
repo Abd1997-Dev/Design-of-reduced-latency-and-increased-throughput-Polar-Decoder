@@ -36,7 +36,7 @@ The corresponding schematic obtained from the xilinx vivado is attached in the f
 <img src="https://user-images.githubusercontent.com/73669849/232690066-a691e641-3c87-41f4-8f15-7cf19d5b487e.png" width="600" height="300">
 </p>
 <p align = "center">
-Fig.4 - =Schematic of the pe1 using Xilinx Vivado
+Fig.4 - Schematic of the pe1 using Xilinx Vivado
 </p>
 
 
@@ -55,17 +55,17 @@ The corresponding schematic obtained from the xilinx vivado is attached in the f
 <img src="https://user-images.githubusercontent.com/73669849/232690592-4b568e88-216d-477d-855f-e3dd0d16b461.png" width="600" height="300">
 </p>
 <p align = "center">
-Fig.5 - Hardware architecture of the pe2
+Fig.6 - Schematic of the pe2 using Xilinx Vivado
 </p>
 
 
-The comparator in the pe2 can be replaced with the subtractor in the pe1 and that approach is known as **sub-structure sharing** approach and it is used to obtain the merged pe2 element in this research paper. The merged pe2 hardware architectrue is shown in fig. 5.
+The comparator in the pe2 can be replaced with the subtractor in the pe1 and that approach is known as **sub-structure sharing** approach and it is used to obtain the merged pe2 element in this research paper. The merged pe2 hardware architectrue is shown in fig. 7.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73669849/232685196-399ab8bf-2f94-44c6-a8f6-0114ab7a1f52.png" width="600" height="300">
 </p>
 <p align = "center">
-Fig.5 - Hardware architecture of the merged pe1 and pe2
+Fig.7 - Hardware architecture of the merged pe1 and pe2
 </p>
 
 **Conclusion:**
