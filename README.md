@@ -30,16 +30,34 @@ Fig.2 - Basic Building Block of the pe1
 Fig.3 - Hardware architecture of the pe1
 </p>
 
-The corresponding Schematic obtained from the xilinx vivado is attached in the fig. 4. I have used **structural modelling** to achieve the required architecture.
+The corresponding schematic obtained from the xilinx vivado is attached in the fig. 4. I have used **structural modelling** to achieve the required architecture.
 
-The pe2 uses the min-sum approach and its hardware architecture is shown in fig. 4. It consists of the two complement to sign magnitude conversion, sign magnitude to two cmplement conversion, EX-OR gate and comparator.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/232690066-a691e641-3c87-41f4-8f15-7cf19d5b487e.png" width="600" height="300">
+</p>
+<p align = "center">
+Fig.4 - =Schematic of the pe1 using Xilinx Vivado
+</p>
+
+
+The pe2 uses the min-sum approach and its hardware architecture is shown in fig. 5. It consists of the two complement to sign magnitude conversion, sign magnitude to two cmplement conversion, EX-OR gate and comparator.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73669849/232683862-0e1d7828-f2c5-4fcf-82b4-aa6bd37c9528.png" width="600" height="300">
 </p>
 <p align = "center">
-Fig.4 - Hardware architecture of the pe2
+Fig.5 - Hardware architecture of the pe2
 </p>
+
+The corresponding schematic obtained from the xilinx vivado is attached in the fig. 6.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/232690592-4b568e88-216d-477d-855f-e3dd0d16b461.png" width="600" height="300">
+</p>
+<p align = "center">
+Fig.5 - Hardware architecture of the pe2
+</p>
+
 
 The comparator in the pe2 can be replaced with the subtractor in the pe1 and that approach is known as **sub-structure sharing** approach and it is used to obtain the merged pe2 element in this research paper. The merged pe2 hardware architectrue is shown in fig. 5.
 
