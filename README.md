@@ -76,4 +76,8 @@ The Implementation of all the above modules are completed in the verilog HDL usi
 
 To implement the complete polar decoder using pipelined architecture as shown in the research paper.
 
+**Reference:**
+
+[1] Chuan Zhang, Bo Yuan, and Kesahb K. Parhi,"Reduced-latency SC Polar decoder Architectures" in IEEE ICC 2012 - Signal Processing for Communications Symposium.
+
 
