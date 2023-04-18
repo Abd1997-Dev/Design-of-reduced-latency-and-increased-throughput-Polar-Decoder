@@ -14,4 +14,4 @@
 Fig.1 - decoding process of polar codes with length N = 8
 </p>
 
-
+It is clear from the above diagram that there are two processing elements pe1(white) and pe2(grey).
