@@ -27,7 +27,7 @@ Fig.2 - Basic Building Block of the pe1
 Fig.3 - Hardware architecture of the pe1
 </p>
 
-The corresponding schematic obtained from the xilinx vivado is attached in the fig. 4. I have used **structural modelling** to achieve the required architecture. [**Note: The block diagram in the paper takes the inputs from right side and gives the ouputs through left side. but in the schematic it is reversed.**]
+The corresponding schematic obtained from the xilinx vivado is attached in the fig. 4. I have used **structural modelling** to achieve the required architecture. [**Note: The block diagram in the paper takes the inputs from right side and gives the ouputs through left side. but in the schematic it is reversed. Applicable for all the following figures**]
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73669849/232690066-a691e641-3c87-41f4-8f15-7cf19d5b487e.png" width="600" height="300">
