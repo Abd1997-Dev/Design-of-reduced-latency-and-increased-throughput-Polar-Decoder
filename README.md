@@ -2,7 +2,7 @@
 <p align="justify"> &emsp; The projects consists of the design and testbench files of polar decoder. The design is based on the research paper published on Signal Processing for communications Symposium 2012. The research paper name is "Reduced-Latency SC Polar Decoder Architecture" written by chuan zhang, Bo Yuan, and keshab K. parhi. </p>
 
 **POLAR DECODER IMPLEMEMENTATION:**
-<p align="justify"> &emsp; The algorithm for this polar decoder is similar like the butterfly diagram of the FFT (fast fourier transforms). The same isshwon in the fig. 1.
+<p align="justify"> &emsp; The algorithm for this polar decoder is similar to the butterfly diagram of the FFT (fast fourier transforms). The same is shwon in the fig. 1.
   
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73669849/232680548-e9e87ef6-5de2-49c7-a1f3-577ccee59743.png" width="400" height="300">
