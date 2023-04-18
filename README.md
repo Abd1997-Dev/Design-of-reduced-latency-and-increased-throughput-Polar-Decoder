@@ -14,4 +14,23 @@
 Fig.1 - decoding process of polar codes with length N = 8
 </p>
 
-It is clear from the above diagram that there are two processing elements pe1(white) and pe2(grey).
+It is clear from the above diagram that there are two processing elements pe1(white) and pe2(grey). The basic building block and hardware architecture of the pe1 are shown in fig.2 and fig. 3 respectively. It consists of only full adder & subtractor and half adder & subtractor.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/232682120-82e57154-9f15-44a4-a9bb-9be54c17010f.png" width="300" height="300">
+</p>
+<p align = "center">
+Fig.2 - Basic Building Block of the pe1
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/232682643-e8ff888b-3ac0-4137-a479-0b7397751c93.png" width="300" height="300">
+</p>
+<p align = "center">
+Fig.3 - Hardware architecture of the pe1
+</p>
+
+
+
+
+
