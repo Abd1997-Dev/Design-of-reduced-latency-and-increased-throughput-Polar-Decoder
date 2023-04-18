@@ -1,9 +1,6 @@
 # Design-of-reduced-latency-and-increased-throughput-Polar-Decoder
 <p align="justify"> &emsp; The projects consists of the design and testbench files of polar decoder. The design is based on the research paper published on Signal Processing for communications Symposium 2012. The research paper name is "Reduced-Latency SC Polar Decoder Architecture" written by chuan zhang, Bo Yuan, and keshab K. parhi. </p>
 
-**Behind the scene approach to finalise this paper for the design:** 
-<p align="justify"> &emsp; The various research paper from top conferences and journals based on the polar decoder is referred and the basic understanding of the polar decoder is obtained. Then, the hardware architecture of the polar decoder is obtained from one paper [mentioned above] to implement using the verilog HDL. </p>
-
 **POLAR DECODER IMPLEMEMENTATION:**
 <p align="justify"> &emsp; The algorithm for this polar decoder is similar like the butterfly diagram of the FFT (fast fourier transforms). The same isshwon in the fig. 1.
   
@@ -68,6 +65,17 @@ The comparator in the pe2 can be replaced with the subtractor in the pe1 and tha
 Fig.7 - Hardware architecture of the merged pe1 and pe2
 </p>
 
+The corresponding schematic obtained from the xilinx vivado is attached in the fig. 8.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/232694056-fd29fe81-3bef-42b5-bc25-946130f43a96.png" width="600" height="300">
+</p>
+<p align = "center">
+Fig.8 - Schematic of the merged pe1 and pe2 using Xilinx Vivado
+</p>
+
+
+
 **Conclusion:**
 
 The Implementation of all the above modules are completed in the verilog HDL using the xilinx Vivado 2020.2. The verilog code and the schematic are attached with this repository.
@@ -79,5 +87,8 @@ To implement the complete polar decoder using pipelined architecture as shown in
 **Reference:**
 
 [1] Chuan Zhang, Bo Yuan, and Kesahb K. Parhi,"Reduced-latency SC Polar decoder Architectures" in IEEE ICC 2012 - Signal Processing for Communications Symposium.
+
+**Behind the scene approach to finalise this paper for the design:** 
+<p align="justify"> &emsp; The various research paper from top conferences and journals based on the polar decoder is referred and the basic understanding of the polar decoder is obtained. Then, the hardware architecture of the polar decoder is obtained from one paper [mentioned above] to implement using the verilog HDL. </p>
 
 
