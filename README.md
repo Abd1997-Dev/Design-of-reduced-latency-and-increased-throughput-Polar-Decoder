@@ -30,6 +30,8 @@ Fig.2 - Basic Building Block of the pe1
 Fig.3 - Hardware architecture of the pe1
 </p>
 
+The corresponding Schematic obtained from the xilinx vivado is attached in the fig. 4. I have used **structural modelling** to achieve the required architecture.
+
 The pe2 uses the min-sum approach and its hardware architecture is shown in fig. 4. It consists of the two complement to sign magnitude conversion, sign magnitude to two cmplement conversion, EX-OR gate and comparator.
 
 <p align="center">
