@@ -24,12 +24,29 @@ Fig.2 - Basic Building Block of the pe1
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/73669849/232682643-e8ff888b-3ac0-4137-a479-0b7397751c93.png" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/73669849/232682643-e8ff888b-3ac0-4137-a479-0b7397751c93.png" width="600" height="300">
 </p>
 <p align = "center">
 Fig.3 - Hardware architecture of the pe1
 </p>
 
+The pe2 uses the min-sum approach and its hardware architecture is shown in fig. 4. It consists of the two complement to sign magnitude conversion, sign magnitude to two cmplement conversion, EX-OR gate and comparator.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/232683862-0e1d7828-f2c5-4fcf-82b4-aa6bd37c9528.png" width="600" height="300">
+</p>
+<p align = "center">
+Fig.4 - Hardware architecture of the pe2
+</p>
+
+The comparator in the pe2 can be replaced with the subtractor in the pe1 and that approach is known as **sub-structure sharing** approach and it is used to obtain the merged pe2 element in this research paper. The merged pe2 hardware architectrue is shown in fig. 5.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/232685196-399ab8bf-2f94-44c6-a8f6-0114ab7a1f52.png" width="600" height="300">
+</p>
+<p align = "center">
+Fig.5 - Hardware architecture of the merged pe1 and pe2
+</p>
 
 
 
