@@ -8,10 +8,10 @@
 <p align="justify"> &emsp; The algorithm for this polar decoder is similar like the butterfly diagram of the FFT (fast fourier transforms). The same isshwon in the fig. 1.
   
 <p align="center">
-<img src="https://user-images.githubusercontent.com/73669849/232680548-e9e87ef6-5de2-49c7-a1f3-577ccee59743.png" width="200" height="300">
+<img src="https://user-images.githubusercontent.com/73669849/232680548-e9e87ef6-5de2-49c7-a1f3-577ccee59743.png" width="400" height="300">
 </p>
 <p align = "center">
-Fig.1 - decoding process of polar codes with N = 8
+Fig.1 - decoding process of polar codes with length N = 8
 </p>
 
 
