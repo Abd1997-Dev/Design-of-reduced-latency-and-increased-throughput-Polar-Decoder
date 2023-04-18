@@ -4,7 +4,7 @@
 **Behind the scene approach to finalise this paper for the design:** 
 <p align="justify"> &emsp; The various research paper from top conferences and journals based on the polar decoder is referred and the basic understanding of the polar decoder is obtained. Then, the hardware architecture of the polar decoder is obtained from one paper [mentioned above] to implement using the verilog HDL. </p>
 
-**POLAR DECODER IMPLEMEMENTATION**
+**POLAR DECODER IMPLEMEMENTATION:**
 <p align="justify"> &emsp; The algorithm for this polar decoder is similar like the butterfly diagram of the FFT (fast fourier transforms). The same isshwon in the fig. 1.
   
 <p align="center">
@@ -48,10 +48,12 @@ The comparator in the pe2 can be replaced with the subtractor in the pe1 and tha
 Fig.5 - Hardware architecture of the merged pe1 and pe2
 </p>
 
-**Conclusion**
+**Conclusion:**
+
 The Implementation of all the above modules are completed in the verilog HDL using the xilinx Vivado 2020.2. The verilog code and the schematic are attached with this repository.
 
-**Future works**
+**Future works:**
+
 To implement the complete polar decoder using pipelined architecture as shown in the research paper.
 
 
