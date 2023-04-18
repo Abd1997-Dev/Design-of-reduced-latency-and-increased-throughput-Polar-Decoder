@@ -49,11 +49,9 @@ Fig.5 - Hardware architecture of the merged pe1 and pe2
 </p>
 
 **Conclusion:**
-
 The Implementation of all the above modules are completed in the verilog HDL using the xilinx Vivado 2020.2. The verilog code and the schematic are attached with this repository.
 
 **Future works:**
-
 To implement the complete polar decoder using pipelined architecture as shown in the research paper.
 
 
